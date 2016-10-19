@@ -23,10 +23,15 @@
 
 ## Useful commands
 - `meteor`
+  * In the Meteor app directory, runs the app
 - `mongodump --host 127.0.0.1 --port 3001 --db meteor`
-- `mongorestore --host 127.0.0.1 --port 3001 --db meteor dump/films`
+  * While `meteor` is running, dumps the entire database into `dump/meteor` in the current directory
+- `mongorestore --host 127.0.0.1 --port 3001 --db meteor dump/meteor`
+  * While `meteor` is running, restores a db from a dump in the format `dump/meteor` 
 - `mongoexport --host 127.0.0.1 --port 3001 --db meteor --collection titles --fields 'title,theatrical_release,domestic_gross,poster_url'  --out titles.json`
+  * While `meteor` is running, exports the collection called titles with a specific subset of fields to `titles.json`
 - `mongoimport --host 127.0.0.1 --port 3001 --db meteor --collection titles --file titles.json`
+  * While `meteor` is running, imports the file `titles.json` to the collection called titles
 
 ## Useful reading
 - [React Component Lifecycle] (https://facebook.github.io/react/docs/component-specs.html)
