@@ -18,7 +18,9 @@
   - Windows
     * [Installation](https://install.meteor.com/windows)
 
-4. Run `meteor` inside the `hackharvard-pilot` directory!
+3. Run `meteor` inside the `hackharvard-pilot` directory!
+
+4. Run `mongorestore --host 127.0.0.1 --port 3001 --db meteor dump/meteor` in the `hackharvard-pilot` directory.
 
 
 ## Useful commands
