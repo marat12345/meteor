@@ -251,7 +251,7 @@ export default class ActorRevChart extends Component {
             .attr("d", area);
         svg.append("g")
             .attr("class", "x axis noselect")
-            .attr("transform", "translate(0," + height + 40 + ")")
+            .attr("transform", "translate(0,250)")
             .call(xAxis);
         svg.append("g")
             .attr("class", "y axis noselect")
