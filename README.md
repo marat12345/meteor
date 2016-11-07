@@ -10,7 +10,7 @@
 - [Robomongo 0.9.0 RC10] (https://robomongo.org/download)
 
 ## Instructions
-1. `git clone https://github.com/alan-xie/hackharvard-pilot.git`
+1. `git clone https://github.com/alan-xie/cs50seminar-meteor-react.git`
 
 2. Meteor.js Installation 
   - OSX
@@ -18,9 +18,11 @@
   - Windows
     * [Installation](https://install.meteor.com/windows)
 
-3. Run `meteor` inside the `hackharvard-pilot` directory!
+3. We need to install React dependencies that make our app work. In the `cs50seminar-meteor-react` directory, run this command in Terminal: `meteor npm install --save react react-dom react-addons-pure-render-mixin react-addons-transition-group react-addons-css-transition-group react-addons-linked-state-mixin react-addons-create-fragment react-addons-update react-addons-test-utils react-addons-perf`
 
-4. Run `mongorestore --host 127.0.0.1 --port 3001 --db meteor dump/meteor` in the `hackharvard-pilot` directory.
+4. Run `meteor` inside the `cs50seminar-meteor-react` directory!
+
+5. Run `mongorestore --host 127.0.0.1 --port 3001 --db meteor dump/meteor` in the `cs50seminar-meteor-react` directory.
 
 
 ## Useful commands
