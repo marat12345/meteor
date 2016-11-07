@@ -1,4 +1,4 @@
-# Pilot HackHarvard Demo (Meteor.js + ReactJS + MongoDB)
+# CS50 Seminar: Meteor.js + ReactJS
 
 ### Requirements
 - Meteor.js (MongoDB and other packages will be installed automatically when you run meteor)
