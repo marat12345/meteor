@@ -22,7 +22,7 @@
 
 4. Run `meteor` inside the `cs50seminar-meteor-react` directory!
 
-5. Run `mongorestore --host 127.0.0.1 --port 3001 --db meteor dump/meteor` in the `cs50seminar-meteor-react` directory.
+5. Run `mongorestore --host 127.0.0.1 --port 3001 --db meteor dump/meteor` in the `cs50seminar-meteor-react` directory. If you receive an error, you may have to right-click each of your existing collections in Robomongo and select "Drop Collection." Then, rerun the `mongorestore` command.
 
 
 ## Useful commands
