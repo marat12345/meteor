@@ -1,0 +1,3 @@
+[submodule "cs50seminar-meteor-react"]
+	path = cs50seminar-meteor-react
+	url = https://github.com/alan-ren/cs50seminar-meteor-react.git
